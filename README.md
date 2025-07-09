@@ -1,4 +1,4 @@
-# 梯子Clash - 7月1日19.1M/S|免费Shadowrocket/SSR/V2ray/Clash订阅节点  更新时间 2025-07-01 08:47:10
+# 梯子Clash - 7月9日18.6M/S|免费V2ray/Shadowrocket/Clash/SSR订阅节点  更新时间 2025-07-09 09:01:37
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://tiziclash.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### Clash订阅链接
 
-- https://tiziclash.github.io/uploads/2025/07/0-20250701.yaml
-- https://tiziclash.github.io/uploads/2025/07/1-20250701.yaml
-- https://tiziclash.github.io/uploads/2025/07/2-20250701.yaml
-- https://tiziclash.github.io/uploads/2025/07/3-20250701.yaml
-- https://tiziclash.github.io/uploads/2025/07/4-20250701.yaml
+- https://tiziclash.github.io/uploads/2025/07/0-20250709.yaml
+- https://tiziclash.github.io/uploads/2025/07/1-20250709.yaml
+- https://tiziclash.github.io/uploads/2025/07/2-20250709.yaml
+- https://tiziclash.github.io/uploads/2025/07/3-20250709.yaml
+- https://tiziclash.github.io/uploads/2025/07/4-20250709.yaml
 
 ### V2ray订阅链接
 
-- https://tiziclash.github.io/uploads/2025/07/0-20250701.txt
-- https://tiziclash.github.io/uploads/2025/07/1-20250701.txt
-- https://tiziclash.github.io/uploads/2025/07/2-20250701.txt
-- https://tiziclash.github.io/uploads/2025/07/3-20250701.txt
-- https://tiziclash.github.io/uploads/2025/07/4-20250701.txt
+- https://tiziclash.github.io/uploads/2025/07/0-20250709.txt
+- https://tiziclash.github.io/uploads/2025/07/1-20250709.txt
+- https://tiziclash.github.io/uploads/2025/07/2-20250709.txt
+- https://tiziclash.github.io/uploads/2025/07/3-20250709.txt
+- https://tiziclash.github.io/uploads/2025/07/4-20250709.txt
 
 ### Sing-box订阅链接
 
-- https://tiziclash.github.io/uploads/2025/07/20250701.json
+- https://tiziclash.github.io/uploads/2025/07/20250709.json
 
 ## 更多clash节点订阅 ：
 
