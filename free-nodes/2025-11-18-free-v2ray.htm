@@ -183,14 +183,9 @@ Test-NetConnection <span class="token parameter variable">-ComputerName</span> e
         PassWall2 是基于 OpenWRT 的插件，只要路由器支持该固件，就能安装运行。常见型号如小米路由、斐讯、软路由都可以使用，通过 Web 界面操作，适合家庭网络使用场景。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Shadowrocket 可以在哪些平台使用？</h5></div>
+    <div class="panel-heading"><h5>Surfboard 的节点策略组如何提升使用体验？</h5></div>
     <div class="panel-body">
-        Shadowrocket 是一款 iOS 平台专用代理客户端，支持多种协议如 Vmess、Shadowsocks、Trojan 等。用户可通过导入订阅链接快速配置节点，配合规则分流功能实现精准网络代理。由于其强大功能，它是 iPhone 用户常用的科学上网工具。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>WinXray 可以自定义规则吗？</h5></div>
-    <div class="panel-body">
-        可以。WinXray 支持编辑路由规则文件，用户可设置域名白名单或黑名单，实现分流策略。例如国内流量直连、国外流量走代理，从而提高网络访问效率。<hr />    </div>
+        策略组可将节点按延迟、用途或地理位置分类，通过规则自动选择最优节点。用户无需手动切换节点即可获得最佳速度和稳定性，提高浏览和观看流媒体的体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Hysteria2 是否支持 UDP 加速？</h5></div>
@@ -198,14 +193,9 @@ Test-NetConnection <span class="token parameter variable">-ComputerName</span> e
         支持。Hysteria2 通过 QUIC 协议原生支持 UDP 加速，对实时性要求高的应用（如游戏或语音通话）表现极佳，能显著降低延迟并提高连接稳定性。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Nekoray 如何实现节点订阅自动更新？</h5></div>
+    <div class="panel-heading"><h5>Shadowrocket 可以在哪些平台使用？</h5></div>
     <div class="panel-body">
-        支持订阅 URL 自动更新节点，程序定期下载并替换旧节点。保证节点列表最新，减少手动维护，提高使用效率和便利性，同时保证网络访问稳定性。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Surfboard 的节点策略组如何提升使用体验？</h5></div>
-    <div class="panel-body">
-        策略组可将节点按延迟、用途或地理位置分类，通过规则自动选择最优节点。用户无需手动切换节点即可获得最佳速度和稳定性，提高浏览和观看流媒体的体验。<hr />    </div>
+        Shadowrocket 是一款 iOS 平台专用代理客户端，支持多种协议如 Vmess、Shadowsocks、Trojan 等。用户可通过导入订阅链接快速配置节点，配合规则分流功能实现精准网络代理。由于其强大功能，它是 iPhone 用户常用的科学上网工具。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>VLess + Reality 的优势主要体现在哪些方面？</h5></div>
@@ -213,14 +203,24 @@ Test-NetConnection <span class="token parameter variable">-ComputerName</span> e
         Reality 采用非传统 TLS 流量伪装方式，通过模拟目标网站证书与握手特征来隐藏代理特征，相较于普通 VLess + TLS 更难被识别。它还具备更高的性能与更少的明文特征，适合高安全需求环境。<hr />    </div>
 </div>
 <div class="panel panel-default">
+    <div class="panel-heading"><h5>Hysteria2 的多路复用如何提高传输效率？</h5></div>
+    <div class="panel-body">
+        Hysteria2 利用 QUIC 的多路复用功能，将多个请求共享单个 UDP 连接，减少握手次数和延迟，提升整体吞吐量。尤其在高并发场景中效果显著。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Nekoray 如何实现节点订阅自动更新？</h5></div>
+    <div class="panel-body">
+        支持订阅 URL 自动更新节点，程序定期下载并替换旧节点。保证节点列表最新，减少手动维护，提高使用效率和便利性，同时保证网络访问稳定性。<hr />    </div>
+</div>
+<div class="panel panel-default">
     <div class="panel-heading"><h5>如何在 Windows 上安装 Clash for Windows？</h5></div>
     <div class="panel-body">
         在 Windows 上安装 Clash for Windows 十分简单。只需前往官方 GitHub 页面下载最新版安装包，运行安装程序后导入订阅链接或配置文件即可。安装完成后，用户可以通过图形化界面方便地切换节点、编辑规则和控制代理模式。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Hysteria2 的多路复用如何提高传输效率？</h5></div>
+    <div class="panel-heading"><h5>WinXray 可以自定义规则吗？</h5></div>
     <div class="panel-body">
-        Hysteria2 利用 QUIC 的多路复用功能，将多个请求共享单个 UDP 连接，减少握手次数和延迟，提升整体吞吐量。尤其在高并发场景中效果显著。<hr />    </div>
+        可以。WinXray 支持编辑路由规则文件，用户可设置域名白名单或黑名单，实现分流策略。例如国内流量直连、国外流量走代理，从而提高网络访问效率。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>SSR 的加密方式推荐使用哪种？</h5></div>
@@ -254,16 +254,16 @@ Test-NetConnection <span class="token parameter variable">-ComputerName</span> e
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2025-11-9-free-v2ray.htm" title="梯子Clash - 11月9日19.9M/S|免费Clash节点/Singbox节点/V2ray节点/SSR节点/Shadowrocket节点订阅节点">梯子Clash - 11月9日19.9M/S|免费Clash节点/Singbox节点/V2ray节点/SSR节点/Shadowrocket节点订阅节点</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-15-node-share-links.htm" title="梯子Clash - 11月15日19.2M/S|免费V2ray节点/Clash节点/SSR节点/Shadowrocket节点/Singbox节点订阅节点">梯子Clash - 11月15日19.2M/S|免费V2ray节点/Clash节点/SSR节点/Shadowrocket节点/Singbox节点订阅节点</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-26-node-share-links.htm" title="梯子Clash - 10月26日21.7M/S|免费Shadowrocket节点/V2ray节点/SSR节点/Clash节点/Singbox节点订阅节点">梯子Clash - 10月26日21.7M/S|免费Shadowrocket节点/V2ray节点/SSR节点/Clash节点/Singbox节点订阅节点</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-21-node-share-links.htm" title="梯子Clash - 10月21日18.4M/S|免费Clash节点/Singbox节点/V2ray节点/SSR节点/Shadowrocket节点订阅节点">梯子Clash - 10月21日18.4M/S|免费Clash节点/Singbox节点/V2ray节点/SSR节点/Shadowrocket节点订阅节点</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-16-clash-v2ray-ss-ssr.htm" title="梯子Clash - 10月16日22.4M/S|免费Clash节点/Shadowrocket节点/Singbox节点/SSR节点/V2ray节点订阅节点">梯子Clash - 10月16日22.4M/S|免费Clash节点/Shadowrocket节点/Singbox节点/SSR节点/V2ray节点订阅节点</a></li>
                         <li class="py-2"><a href="/free-nodes/2025-11-14-free-node-subscribe-links.htm" title="梯子Clash - 11月14日19.7M/S|免费V2ray节点/Clash节点/SSR节点/Shadowrocket节点/Singbox节点订阅节点">梯子Clash - 11月14日19.7M/S|免费V2ray节点/Clash节点/SSR节点/Shadowrocket节点/Singbox节点订阅节点</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-4-node-share-links.htm" title="梯子Clash - 11月4日19.7M/S|免费Singbox节点/Clash节点/Shadowrocket节点/V2ray节点/SSR节点订阅节点">梯子Clash - 11月4日19.7M/S|免费Singbox节点/Clash节点/Shadowrocket节点/V2ray节点/SSR节点订阅节点</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-19-free-node-subscribe-links.htm" title="梯子Clash - 10月19日19.8M/S|免费Shadowrocket节点/V2ray节点/Singbox节点/SSR节点/Clash节点订阅节点">梯子Clash - 10月19日19.8M/S|免费Shadowrocket节点/V2ray节点/Singbox节点/SSR节点/Clash节点订阅节点</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-13-clash-v2ray-ss-ssr.htm" title="梯子Clash - 11月13日19M/S|免费V2ray节点/SSR节点/Shadowrocket节点/Singbox节点/Clash节点订阅节点">梯子Clash - 11月13日19M/S|免费V2ray节点/SSR节点/Shadowrocket节点/Singbox节点/Clash节点订阅节点</a></li>
                         <li class="py-2"><a href="/free-nodes/2025-10-25-free-v2ray.htm" title="梯子Clash - 10月25日22.5M/S|免费Singbox节点/Clash节点/Shadowrocket节点/SSR节点/V2ray节点订阅节点">梯子Clash - 10月25日22.5M/S|免费Singbox节点/Clash节点/Shadowrocket节点/SSR节点/V2ray节点订阅节点</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-3-free-node-subscribe.htm" title="梯子Clash - 10月3日22.8M/S|免费SSR节点/Shadowrocket节点/Clash节点/Singbox节点/V2ray节点订阅节点">梯子Clash - 10月3日22.8M/S|免费SSR节点/Shadowrocket节点/Clash节点/Singbox节点/V2ray节点订阅节点</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-5-free-v2ray.htm" title="梯子Clash - 11月5日19.1M/S|免费Shadowrocket节点/Clash节点/SSR节点/Singbox节点/V2ray节点订阅节点">梯子Clash - 11月5日19.1M/S|免费Shadowrocket节点/Clash节点/SSR节点/Singbox节点/V2ray节点订阅节点</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-22-clash-v2ray-ss-ssr.htm" title="梯子Clash - 10月22日20.8M/S|免费Shadowrocket节点/SSR节点/V2ray节点/Clash节点/Singbox节点订阅节点">梯子Clash - 10月22日20.8M/S|免费Shadowrocket节点/SSR节点/V2ray节点/Clash节点/Singbox节点订阅节点</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-27-clash-v2ray-ss-ssr.htm" title="梯子Clash - 10月27日21.1M/S|免费Singbox节点/Clash节点/SSR节点/V2ray节点/Shadowrocket节点订阅节点">梯子Clash - 10月27日21.1M/S|免费Singbox节点/Clash节点/SSR节点/V2ray节点/Shadowrocket节点订阅节点</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-23-free-subscribe-node.htm" title="梯子Clash - 11月23日19.6M/S|免费V2ray节点/Shadowrocket节点/Clash节点/Singbox节点/SSR节点订阅节点">梯子Clash - 11月23日19.6M/S|免费V2ray节点/Shadowrocket节点/Clash节点/Singbox节点/SSR节点订阅节点</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-31-free-v2ray.htm" title="梯子Clash - 10月31日19.1M/S|免费SSR节点/Singbox节点/V2ray节点/Clash节点/Shadowrocket节点订阅节点">梯子Clash - 10月31日19.1M/S|免费SSR节点/Singbox节点/V2ray节点/Clash节点/Shadowrocket节点订阅节点</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-9-free-subscribe-node.htm" title="梯子Clash - 10月9日19.1M/S|免费Clash节点/Singbox节点/V2ray节点/SSR节点/Shadowrocket节点订阅节点">梯子Clash - 10月9日19.1M/S|免费Clash节点/Singbox节点/V2ray节点/SSR节点/Shadowrocket节点订阅节点</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-2-free-node-subscribe-links.htm" title="梯子Clash - 11月2日22.2M/S|免费V2ray节点/Shadowrocket节点/Clash节点/Singbox节点/SSR节点订阅节点">梯子Clash - 11月2日22.2M/S|免费V2ray节点/Shadowrocket节点/Clash节点/Singbox节点/SSR节点订阅节点</a></li>
                     </ul>
     </div>
 </div>
@@ -275,7 +275,7 @@ Test-NetConnection <span class="token parameter variable">-ComputerName</span> e
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">19</span> <a href="/date/2025-11/" title="2025-11 归档">2025-11</a></h4>
+                <h4><span class="badge" style="float: right;">26</span> <a href="/date/2025-11/" title="2025-11 归档">2025-11</a></h4>
             </li>
                         <li class="py-2">
                 <h4><span class="badge" style="float: right;">26</span> <a href="/date/2025-10/" title="2025-10 归档">2025-10</a></h4>
