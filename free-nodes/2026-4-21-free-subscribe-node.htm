@@ -343,39 +343,9 @@ bash &lt;(curl -s -L https://github.com/v2fly/fhs-install-v2ray/raw/master/insta
     </div>
 <h4>FAQ</h4>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Sing-box 支持按 IP 段分流吗？</h5></div>
-    <div class="panel-body">
-        支持。Sing-box 可根据 IP 段将国内流量直连，国外流量走代理，结合策略组实现智能分流。这样可保证访问速度和稳定性，同时优化节点使用效率，提高网络体验。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Surfboard 如何结合规则屏蔽广告？</h5></div>
-    <div class="panel-body">
-        Surfboard 可通过规则文件匹配广告域名或 URL，并将其重定向或阻断。结合策略组自动更新规则，可实现广告屏蔽，提高浏览体验和节省带宽。<hr />    </div>
-</div>
-<div class="panel panel-default">
     <div class="panel-heading"><h5>Hiddify Next 如何管理用户流量配额？</h5></div>
     <div class="panel-body">
         管理员可以为每个用户设置上传和下载带宽以及总流量上限。超出限制可自动降速或阻止访问，保证服务器资源合理分配，提高整体网络公平性和用户体验。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Hysteria2 多路复用对即时通讯的优势是什么？</h5></div>
-    <div class="panel-body">
-        多路复用可让多个短连接共享同一通道，减少握手次数和加密开销，提高吞吐量和连接稳定性。适合即时通讯应用，保证消息快速传输和稳定接收。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>QuantumultX 支持哪些类型的分流规则？</h5></div>
-    <div class="panel-body">
-        QuantumultX 支持域名、IP、端口、协议和用户自定义脚本分流。结合策略组使用，可实现精准流量控制，如广告屏蔽、视频加速和游戏优化，提高访问速度和体验。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Netch 的 UDP 转发如何配置？</h5></div>
-    <div class="panel-body">
-        Netch 可在客户端设置 UDP 转发开关，选择需要代理的 UDP 流量端口或应用。适用于游戏、语音或实时视频，确保这些应用在代理环境下低延迟且稳定。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Surfboard 可以结合规则实现广告屏蔽吗？</h5></div>
-    <div class="panel-body">
-        可以。Surfboard 支持通过规则文件匹配广告域名或 URL，将其阻断或重定向。结合策略组定期更新规则，可以实现自动广告屏蔽，提升网页浏览体验并节省带宽。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>VMess 的多路复用在短连接环境下有什么优势？</h5></div>
@@ -383,14 +353,44 @@ bash &lt;(curl -s -L https://github.com/v2fly/fhs-install-v2ray/raw/master/insta
         多路复用可将多个短连接共享同一 TCP 或 QUIC 隧道，减少重复握手和延迟。适合高频短连接的应用场景，如即时通讯、游戏或网页频繁请求，提升整体响应速度。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Vmess 的安全加密方式推荐使用哪种？</h5></div>
+    <div class="panel-heading"><h5>Netch 的 UDP 转发如何配置？</h5></div>
     <div class="panel-body">
-        目前推荐使用 auto 或 none（结合 TLS 加密）以提升性能。旧版 AEAD 加密已被废弃，使用 TLS/XTLS 层提供的加密即可确保安全。过度加密反而增加 CPU 占用与延迟。<hr />    </div>
+        Netch 可在客户端设置 UDP 转发开关，选择需要代理的 UDP 流量端口或应用。适用于游戏、语音或实时视频，确保这些应用在代理环境下低延迟且稳定。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Surfboard 如何结合规则屏蔽广告？</h5></div>
+    <div class="panel-body">
+        Surfboard 可通过规则文件匹配广告域名或 URL，并将其重定向或阻断。结合策略组自动更新规则，可实现广告屏蔽，提高浏览体验和节省带宽。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Sing-box 支持按 IP 段分流吗？</h5></div>
+    <div class="panel-body">
+        支持。Sing-box 可根据 IP 段将国内流量直连，国外流量走代理，结合策略组实现智能分流。这样可保证访问速度和稳定性，同时优化节点使用效率，提高网络体验。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Surfboard 可以结合规则实现广告屏蔽吗？</h5></div>
+    <div class="panel-body">
+        可以。Surfboard 支持通过规则文件匹配广告域名或 URL，将其阻断或重定向。结合策略组定期更新规则，可以实现自动广告屏蔽，提升网页浏览体验并节省带宽。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Hysteria2 多路复用对即时通讯的优势是什么？</h5></div>
+    <div class="panel-body">
+        多路复用可让多个短连接共享同一通道，减少握手次数和加密开销，提高吞吐量和连接稳定性。适合即时通讯应用，保证消息快速传输和稳定接收。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Shadowrocket 节点延迟排序如何提高稳定性？</h5></div>
     <div class="panel-body">
-        Shadowrocket 测试节点延迟和丢包率，将低延迟节点优先使用。结合策略组和规则文件，可保证网页、视频和游戏流量通过最优节点，提高连接稳定性和访问速度。    </div>
+        Shadowrocket 测试节点延迟和丢包率，将低延迟节点优先使用。结合策略组和规则文件，可保证网页、视频和游戏流量通过最优节点，提高连接稳定性和访问速度。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>QuantumultX 支持哪些类型的分流规则？</h5></div>
+    <div class="panel-body">
+        QuantumultX 支持域名、IP、端口、协议和用户自定义脚本分流。结合策略组使用，可实现精准流量控制，如广告屏蔽、视频加速和游戏优化，提高访问速度和体验。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Vmess 的安全加密方式推荐使用哪种？</h5></div>
+    <div class="panel-body">
+        目前推荐使用 auto 或 none（结合 TLS 加密）以提升性能。旧版 AEAD 加密已被废弃，使用 TLS/XTLS 层提供的加密即可确保安全。过度加密反而增加 CPU 占用与延迟。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -419,16 +419,16 @@ bash &lt;(curl -s -L https://github.com/v2fly/fhs-install-v2ray/raw/master/insta
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2026-3-25-free-node-subscribe.htm" title="梯子Clash - 3月25日22.4M/S|免费Clash节点/Trojan节点/SSR节点/V2ray节点/Singbox节点/Shadowrocket节点订阅节点">梯子Clash - 3月25日22.4M/S|免费Clash节点/Trojan节点/SSR节点/V2ray节点/Singbox节点/Shadowrocket节点订阅节点</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-20-clash-v2ray-ss-ssr.htm" title="梯子Clash - 3月20日20M/S|免费Trojan节点/Clash节点/SSR节点/Shadowrocket节点/Singbox节点/V2ray节点订阅节点">梯子Clash - 3月20日20M/S|免费Trojan节点/Clash节点/SSR节点/Shadowrocket节点/Singbox节点/V2ray节点订阅节点</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-4-9-clash-v2ray-ss-ssr.htm" title="梯子Clash - 4月9日18.2M/S|免费Singbox节点/V2ray节点/Clash节点/SSR节点/Shadowrocket节点/Trojan节点订阅节点">梯子Clash - 4月9日18.2M/S|免费Singbox节点/V2ray节点/Clash节点/SSR节点/Shadowrocket节点/Trojan节点订阅节点</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-13-clash-v2ray-ss-ssr.htm" title="梯子Clash - 3月13日20.7M/S|免费Shadowrocket节点/Trojan节点/Singbox节点/V2ray节点/Clash节点/SSR节点订阅节点">梯子Clash - 3月13日20.7M/S|免费Shadowrocket节点/Trojan节点/Singbox节点/V2ray节点/Clash节点/SSR节点订阅节点</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-4-2-free-subscribe-node.htm" title="梯子Clash - 4月2日20.3M/S|免费Singbox节点/V2ray节点/Shadowrocket节点/SSR节点/Clash节点/Trojan节点订阅节点">梯子Clash - 4月2日20.3M/S|免费Singbox节点/V2ray节点/Shadowrocket节点/SSR节点/Clash节点/Trojan节点订阅节点</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-5-node-share.htm" title="梯子Clash - 3月5日19.9M/S|免费Clash节点/Singbox节点/SSR节点/Shadowrocket节点/V2ray节点/Trojan节点订阅节点">梯子Clash - 3月5日19.9M/S|免费Clash节点/Singbox节点/SSR节点/Shadowrocket节点/V2ray节点/Trojan节点订阅节点</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-3-15-free-high-speed-nodes.htm" title="梯子Clash - 3月15日22.8M/S|免费Trojan节点/Shadowrocket节点/Clash节点/SSR节点/V2ray节点/Singbox节点订阅节点">梯子Clash - 3月15日22.8M/S|免费Trojan节点/Shadowrocket节点/Clash节点/SSR节点/V2ray节点/Singbox节点订阅节点</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-12-free-subscribe-node.htm" title="梯子Clash - 4月12日20.5M/S|免费Clash节点/SSR节点/Shadowrocket节点/V2ray节点/Singbox节点/Trojan节点订阅节点">梯子Clash - 4月12日20.5M/S|免费Clash节点/SSR节点/Shadowrocket节点/V2ray节点/Singbox节点/Trojan节点订阅节点</a></li>
                         <li class="py-2"><a href="/free-nodes/2026-3-30-free-v2ray.htm" title="梯子Clash - 3月30日21.1M/S|免费Clash节点/Singbox节点/Trojan节点/SSR节点/V2ray节点/Shadowrocket节点订阅节点">梯子Clash - 3月30日21.1M/S|免费Clash节点/Singbox节点/Trojan节点/SSR节点/V2ray节点/Shadowrocket节点订阅节点</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-11-free-node-subscribe-links.htm" title="梯子Clash - 3月11日19.1M/S|免费Shadowrocket节点/Singbox节点/Clash节点/SSR节点/Trojan节点/V2ray节点订阅节点">梯子Clash - 3月11日19.1M/S|免费Shadowrocket节点/Singbox节点/Clash节点/SSR节点/Trojan节点/V2ray节点订阅节点</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-4-23-free-subscribe-node.htm" title="梯子Clash - 4月23日20.7M/S|免费Clash节点/SSR节点/V2ray节点/Trojan节点/Singbox节点/Shadowrocket节点订阅节点">梯子Clash - 4月23日20.7M/S|免费Clash节点/SSR节点/V2ray节点/Trojan节点/Singbox节点/Shadowrocket节点订阅节点</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-19-free-node-subscribe.htm" title="梯子Clash - 3月19日20.1M/S|免费SSR节点/V2ray节点/Clash节点/Shadowrocket节点/Trojan节点/Singbox节点订阅节点">梯子Clash - 3月19日20.1M/S|免费SSR节点/V2ray节点/Clash节点/Shadowrocket节点/Trojan节点/Singbox节点订阅节点</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-3-20-clash-v2ray-ss-ssr.htm" title="梯子Clash - 3月20日20M/S|免费Trojan节点/Clash节点/SSR节点/Shadowrocket节点/Singbox节点/V2ray节点订阅节点">梯子Clash - 3月20日20M/S|免费Trojan节点/Clash节点/SSR节点/Shadowrocket节点/Singbox节点/V2ray节点订阅节点</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-3-4-node-share.htm" title="梯子Clash - 3月4日22.7M/S|免费Trojan节点/Shadowrocket节点/Singbox节点/SSR节点/Clash节点/V2ray节点订阅节点">梯子Clash - 3月4日22.7M/S|免费Trojan节点/Shadowrocket节点/Singbox节点/SSR节点/Clash节点/V2ray节点订阅节点</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-3-26-free-node-subscribe.htm" title="梯子Clash - 3月26日21.9M/S|免费Shadowrocket节点/Singbox节点/SSR节点/V2ray节点/Clash节点/Trojan节点订阅节点">梯子Clash - 3月26日21.9M/S|免费Shadowrocket节点/Singbox节点/SSR节点/V2ray节点/Clash节点/Trojan节点订阅节点</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-11-clash-v2ray-ss-ssr.htm" title="梯子Clash - 4月11日20.7M/S|免费Shadowrocket节点/Trojan节点/SSR节点/Clash节点/V2ray节点/Singbox节点订阅节点">梯子Clash - 4月11日20.7M/S|免费Shadowrocket节点/Trojan节点/SSR节点/Clash节点/V2ray节点/Singbox节点订阅节点</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-3-12-free-v2ray.htm" title="梯子Clash - 3月12日18M/S|免费SSR节点/Trojan节点/Singbox节点/Clash节点/Shadowrocket节点/V2ray节点订阅节点">梯子Clash - 3月12日18M/S|免费SSR节点/Trojan节点/Singbox节点/Clash节点/Shadowrocket节点/V2ray节点订阅节点</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-29-free-high-speed-nodes.htm" title="梯子Clash - 4月29日18.4M/S|免费SSR节点/Trojan节点/Shadowrocket节点/Singbox节点/Clash节点/V2ray节点订阅节点">梯子Clash - 4月29日18.4M/S|免费SSR节点/Trojan节点/Shadowrocket节点/Singbox节点/Clash节点/V2ray节点订阅节点</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-3-22-free-subscribe-node.htm" title="梯子Clash - 3月22日19.5M/S|免费Trojan节点/Shadowrocket节点/V2ray节点/Clash节点/Singbox节点/SSR节点订阅节点">梯子Clash - 3月22日19.5M/S|免费Trojan节点/Shadowrocket节点/V2ray节点/Clash节点/Singbox节点/SSR节点订阅节点</a></li>
                     </ul>
     </div>
 </div>
@@ -440,7 +440,7 @@ bash &lt;(curl -s -L https://github.com/v2fly/fhs-install-v2ray/raw/master/insta
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">16</span> <a href="/date/2026-04/" title="2026-04 归档">2026-04</a></h4>
+                <h4><span class="badge" style="float: right;">23</span> <a href="/date/2026-04/" title="2026-04 归档">2026-04</a></h4>
             </li>
                         <li class="py-2">
                 <h4><span class="badge" style="float: right;">26</span> <a href="/date/2026-03/" title="2026-03 归档">2026-03</a></h4>
